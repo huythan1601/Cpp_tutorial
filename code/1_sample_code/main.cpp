@@ -4,7 +4,6 @@
 int main(void)  // The main function, where program execution begins
 {
     std::cout << "Hello world" << std::endl;  // Output "Hello World!" to the console
-    printf("a");
     return 0;  // Indicate successful program execution
 }
 
