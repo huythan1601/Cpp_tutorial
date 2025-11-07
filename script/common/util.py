@@ -1,5 +1,6 @@
 import os
 import subprocess
+import shutil
 
 class util:
     def __init__(self):
@@ -12,6 +13,8 @@ class util:
             return False
         
     def create_folder(self, folderPath:str):
+        if os.path.exists(folderPath):
+            shutil.rmtree(folderPath)
         os.makedirs(folderPath, exist_ok=True)
 
     def execute_command(self, commandList:list, workingDirectory:str):
