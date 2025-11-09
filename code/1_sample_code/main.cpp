@@ -8,6 +8,8 @@ The main function, where program execution begins.
 int main(void)  
 {
     cout << "Hello world" << endl;  // Output "Hello World!" to the console
+
+    
     return 0;  // Indicate successful program execution
 }
 
