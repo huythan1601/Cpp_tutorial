@@ -1,4 +1,4 @@
 ##This file is used to configure the building and execution of C++ code.
 
 ## Add folder name of specific project that you want to build code of it
-Project_Name: "1_sample_code"
+Project_Name: "0_exercise/1_Display"
